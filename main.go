@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
+import longestsubstring "leetcode/3-longest-substring"
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	longestsubstring.Examples()
 }
