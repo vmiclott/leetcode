@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
+import addtwonumbers "leetcode/2-add-two-numbers"
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	addtwonumbers.Examples()
 }
