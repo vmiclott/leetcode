@@ -1,6 +1,6 @@
 package main
 
-import addtwonumbers "leetcode/2-add-two-numbers"
+import addtwonumbers "leetcode/0002-add-two-numbers"
 
 func main() {
 	addtwonumbers.Examples()
