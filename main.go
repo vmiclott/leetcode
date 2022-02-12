@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
+import longestpalindromicsubstring "leetcode/0005-longest-palindromic-substring"
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	longestpalindromicsubstring.Examples()
 }
