@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	reverseinteger "leetcode/0007-reverse-integer"
 )
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	reverseinteger.Examples()
 }
