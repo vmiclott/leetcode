@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	stringtointeger "leetcode/0008-string-to-integer"
 )
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	stringtointeger.Examples()
 }
