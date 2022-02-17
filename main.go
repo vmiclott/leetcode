@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	containerwithmostwater "leetcode/0011-container-with-most-water"
 )
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	containerwithmostwater.Examples()
 }
