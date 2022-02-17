@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	regularexpressionmatching "leetcode/0010-regular-expression-matching"
 )
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	regularexpressionmatching.Examples()
 }
