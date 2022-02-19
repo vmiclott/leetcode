@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	longestcommonprefix "leetcode/0014-longest-common-prefix"
 )
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	longestcommonprefix.Examples()
 }
