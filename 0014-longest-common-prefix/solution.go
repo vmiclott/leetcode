@@ -10,10 +10,10 @@ func minLength(strs []string) int {
 	return res
 }
 
-func equalAtPos(strs []string, pos int) bool {
-	c := strs[0][pos]
+func equalPrefixes(strs []string, l int) bool {
+	prefix := strs[0][0:l]
 	for _, s := range strs {
-		if c != s[pos] {
+		if prefix != s[0:l] {
 			return false
 		}
 	}
@@ -21,13 +21,17 @@ func equalAtPos(strs []string, pos int) bool {
 }
 
 func longestCommonPrefix(strs []string) string {
-	l, n := 0, minLength(strs)
-	for i := 0; i < n; i++ {
-		if equalAtPos(strs, i) {
-			l++
+	start, end := 1, minLength(strs)
+	if end == 0 {
+		return ""
+	}
+	for start <= end {
+		m := (start + end) / 2
+		if equalPrefixes(strs, m) {
+			start = m + 1
 		} else {
-			return strs[0][0:l]
+			end = m - 1
 		}
 	}
-	return strs[0][0:l]
+	return strs[0][0 : (start+end)/2]
 }
