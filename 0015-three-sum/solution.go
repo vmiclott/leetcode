@@ -28,8 +28,14 @@ func threeSum(nums []int) [][]int {
 				}
 			} else if sum < 0 {
 				left++
+				for nums[left-1] == nums[left] && left < right {
+					left++
+				}
 			} else if sum > 0 {
 				right--
+				for nums[right] == nums[right+1] && left < right {
+					right--
+				}
 			}
 		}
 	}
