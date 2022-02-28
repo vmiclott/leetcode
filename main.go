@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	threesumclosest "leetcode/0016-three-sum-closest"
 )
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	threesumclosest.Examples()
 }
