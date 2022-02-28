@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	lettercombinations "leetcode/0017-letter-combinations"
 )
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	lettercombinations.Examples()
 }
