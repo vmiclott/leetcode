@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	twosumii "leetcode/0167-two-sum-ii"
 )
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	twosumii.Examples()
 }
