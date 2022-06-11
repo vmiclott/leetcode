@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	minopstoreducetozero "leetcode/1658-min-ops-to-reduce-to-zero"
 )
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	minopstoreducetozero.Examples()
 }
