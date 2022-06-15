@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	longeststringchain "leetcode/1048-longest-string-chain"
 )
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	longeststringchain.Examples()
 }
