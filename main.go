@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	findmedianfromdatastream "leetcode/0295-find-median-from-data-stream"
 )
 
 func main() {
-	fmt.Println("Check out the branch \"solution/<number>\" to run the examples for problem <number>.")
+	findmedianfromdatastream.Examples()
 }
